@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Preprocessed data / pickles
+preprocess_*.p
+*.pkl
+*.pickle
+
+# Model artifacts (SavedModel dir, HDF5, checkpoints)
+image_classification/
+image_classification.h5
+*.h5
+*.ckpt
+*.ckpt.index
+*.data-*
+*.meta
+variables/
+saved_model.pb
+saved_model.pbtxt
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# OS files
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# Distribution / build
+dist/
+build/
+
+# Testing
+.pytest_cache/
+
+# Misc
+*.log

@@ -1,6 +1,10 @@
 import os
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+try:
+    tf.disable_v2_behavior()
+except Exception:
+    pass
 import random
 from unittest.mock import MagicMock
 
